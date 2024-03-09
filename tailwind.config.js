@@ -17,9 +17,6 @@ export default withMT({
         'md':"768px",
         'sm':"480px",
       },
-      backgroundImage: {
-        'hero': "url('/src/assets/Image/BG.png')",      
-      }
     },
   },
   plugins: [],
