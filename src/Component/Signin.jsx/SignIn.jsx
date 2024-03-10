@@ -2,7 +2,7 @@ import coder from '/src/assets/Image/pngtree-vector-working-on-laptop-icon-png-i
 
 const SignIn = () => {
     return (
-        <div className="bg-gradient-to-r from-[#9f8eb3] via-[#ead8fc] to-[#eee6f7] px-24">
+        <div className="bg-gradient-to-r from-[#9f8eb3] via-[#ead8fc] to-[#eee6f7] px-24 border-t-2 border-b-2 border-[#e9d4f5] ">
             <div className='flex justify-center items-center p-40'>
                 <div className='p-10 flex flex-col text-center items-center justify-center border border-white bg-white'>
                     <img src={coder} alt="" className='w-10'/>

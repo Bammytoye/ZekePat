@@ -3,7 +3,7 @@ import star from '/src/assets/Image/Star 1.png'
 
 const About = () => {
     return (
-        <div className='h-100vh px-24 bg-gradient-to-r from-[#9f8eb3] via-[#ead8fc] to-[#eee6f7]'>
+        <div className='h-100vh px-24 bg-gradient-to-r from-[#9f8eb3] via-[#ead8fc] to-[#eee6f7] border-t-2 border-b-2 border-[#e9d4f5]'>
             <div className="flex justify-between items-center">
                 <div className='space-y-7'>
                     <h2 className='w-[450px] text-5xl font-extrabold'>

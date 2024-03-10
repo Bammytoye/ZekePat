@@ -3,8 +3,8 @@ import frame from '/src/assets/Image/Frame 3536.png'
 
 const Send = () => {
     return (
-        <div className='bg-gradient-to-r from-[#9f8eb3] via-[#ead8fc] to-[#eee6f7] px-24'>
-            <div className='flex justify-between items-center'>
+        <div className='bg-gradient-to-r from-[#9f8eb3] via-[#ead8fc] to-[#eee6f7] px-24 border-t-2 border-b-2 border-[#e9d4f5]'>
+            <div className='flex justify-between items-center pt-16'>
                 <div>
                     <img src={iphone} alt="" className='w-[320px] pb-20' />
 
@@ -18,7 +18,7 @@ const Send = () => {
 
                     <p className='text-base text-gray-600'>Transfer cash to friends using just their username. It's that easy and it's free!!!</p>
 
-                    <button type="submit" className='px-8 py-2 bg-transparent border bg-[#60269E] text-white border-[#60269E] rounded-full'>Send cash for free</button>
+                    <button type="submit" className='px-8 py-2 text-white bg-[#552f7e] border border-[#60269E] rounded-full'>Send cash for free</button>
                 </div>
             </div>
         </div>
